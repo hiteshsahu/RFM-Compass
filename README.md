@@ -35,7 +35,6 @@ cp .env.example .env
 
 Create a free API key from [**kumorfm.ai**](https://kumorfm.ai/api-keys) and add it to your `.env`.
 
-
 ### ▶️ Run the App
 
 ### Start the backend
