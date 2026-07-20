@@ -38,35 +38,37 @@ Create a free API key from [**kumorfm.ai**](https://kumorfm.ai/api-keys) and add
 
 ### ▶️ Run the App
 
-Start the backend:
+### Start the backend
 
+Kumo Relational Foundation Models are hosted on NVIDIA's cloud. The backend API acts as a proxy to the RFM API and provides additional features like graph construction, metadata inference, and explainability.
 ```bash
 ./go backend
 ```
 
+Backend starts at: http://localhost:8000
+
+Backend API docs (Swagger UI): http://localhost:8000/docs
+
+
 ![](./docs/img/screenshots/api.jpg)
 
-Start the frontend:
+
+### Start the frontend
+
+Frontend is a React app built with Vite and Material UI. It provides an interactive interface to explore relational data, formulate predictive queries, and visualize the model's predictions and explanations.
 
 ```bash
 ./go frontend
 ```
+Frontend starts at: http://localhost:5173
 
 ![](./docs/img/screenshots/frontend.jpg)
-
-Open:
-
-- Backend: http://localhost:8000
-- Backend API docs (Swagger UI): http://localhost:8000/docs
-- Frontend: http://localhost:5173
-
 
 ---
 
 ## Tech Stack
 
 ![Tech Stack](./docs/img/infographics/rfm_compass_request_flow.svg)
-
 
 ### Backend
 
@@ -80,11 +82,11 @@ Open:
 - Performance metrics
 
 ### Frontend
-
 - React
 - TypeScript
 - Vite
 - Material UI
+
 
 The interface is inspired by a traditional navigation compass, where the compass rose represents the inferred relational graph and the needle points toward the entity currently being predicted.
 
