@@ -2,7 +2,7 @@
 
 > Navigate relational data with Relational Foundation Models(RFM).
 > 
-> ![](./docs/img/cover.png)
+> ![RFM Compass](./docs/img/infographics/cover.jpg)
 
 Ask predictive questions in **PQL**, explore your relational schema as a graph, and understand how **Relational Foundation Models (RFMs)** arrive at their predictions through visual explanations and end-to-end latency metrics.
 
@@ -44,15 +44,20 @@ Start the backend:
 ./go backend
 ```
 
+![](./docs/img/screenshots/api.jpg)
+
 Start the frontend:
 
 ```bash
 ./go frontend
 ```
 
+![](./docs/img/screenshots/frontend.jpg)
+
 Open:
 
 - Backend: http://localhost:8000
+- Backend API docs (Swagger UI): http://localhost:8000/docs
 - Frontend: http://localhost:5173
 
 
@@ -60,7 +65,7 @@ Open:
 
 ## Tech Stack
 
-![Tech Stack](./docs/img/rfm_compass_request_flow.svg)
+![Tech Stack](./docs/img/infographics/rfm_compass_request_flow.svg)
 
 
 ### Backend
